@@ -41,10 +41,11 @@ Job_Tracker_with_ATS_Score/
 │ ├── DeleteEntry.cpp
 │ ├── EditEntry.cpp
 │ ├── ListJobs.cpp
+│ ├── matcher_api.py 
 │ ├── ResumeMatcher.cpp
 │ └── DatabaseInit.cpp
-├── matcher_api.py # Python Flask API for ATS scoring
-├── database/ # SQLite database files (not tracked by git)
+├── database
+│ ├── job.db
 ├── CMakeLists.txt
 └── README.md
 ```

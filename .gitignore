@@ -20,8 +20,5 @@
 *.out
 *.app
 
-# VS Code settings
-.vscode/
-
 # Build folders
 /build/

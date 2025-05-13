@@ -26,6 +26,7 @@ Built with SQLite for persistent storage, libcurl for API calls, and a clean, ma
 
 ## 🗂️ Project Structure
 
+```bash
 Job_Tracker_with_ATS_Score/
 ├── include/ # All C++ header files
 │ ├── AddJob.hpp
@@ -46,7 +47,7 @@ Job_Tracker_with_ATS_Score/
 ├── database/ # SQLite database files (not tracked by git)
 ├── CMakeLists.txt
 └── README.md
-
+```
 
 ---
 
@@ -69,7 +70,7 @@ git clone https://github.com/lohitakshay/Job_Tracker_with_ATS_Score.git
 cd Job_Tracker_with_ATS_Score
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 C++ Libraries
 Use vcpkg or your preferred package manager:
@@ -83,7 +84,7 @@ Python & Flask
 pip install flask
 ```
 
-3. Build the C++ Project
+### 3. Build the C++ Project
 ```bash
 mkdir build
 cd build
@@ -91,19 +92,12 @@ cmake ..
 cmake --build .
 ```
 
-4. Run the Python API
-In a separate terminal, from the project root:
-
-```bash
-python src/matcher_api.py
-```
-(Or let the C++ code auto-start it, if you implemented that feature.)
-
-5. Run the Job Tracker
+### 4. Run the Job Tracker
 ```bash
 ./JobTracker
 ```
 
+---
 
 📝 Usage
 Add Job Entry:
@@ -123,6 +117,8 @@ The Python Flask API removes stopwords and punctuation, then compares unique wor
 
 The score is based on the count of overlapping words, giving you a quick sense of how well your resume matches the job.
 
+---
+
 📦 .gitignore Includes
 Build artifacts (/build/)
 
@@ -134,12 +130,13 @@ Python cache (__pycache__/)
 
 SQLite database files
 
-📄 License
-This project is licensed under the MIT License.
+---
 
 🙋‍♂️ Contributing
 Pull requests and suggestions are welcome!
 Feel free to fork, improve, and share.
+
+---
 
 📧 Contact
 For questions, open an issue or contact: [your-email@example.com]

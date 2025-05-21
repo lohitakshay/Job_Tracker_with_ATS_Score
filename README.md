@@ -133,13 +133,4 @@ SQLite database files
 
 ---
 
-🙋‍♂️ Contributing
-Pull requests and suggestions are welcome!
-Feel free to fork, improve, and share.
-
----
-
-📧 Contact
-For questions, open an issue or contact: [your-email@example.com]
-
 Happy job tracking and best of luck with your applications!
